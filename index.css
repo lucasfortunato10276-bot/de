@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1rem;
+
+}
+.pai1{
+display: inline-flex;
+gap: 30px;
+margin-left: 2rem;
+list-style: none;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+transition: 1s ease-in-out;
+}
+label{
+font-size: 2rem;
+margin-right: 1rem;
+cursor: pointer;
+transition: 1s ease-in-out;
+transform: scale(0);
+
+}
+.f1{
+background-color: rgb(10, 201, 89);
+padding-bottom: 15px ;
+padding-top:15x ;
+width: 100%;
+
+}
+.pai2{
+display: flex;
+justify-content:space-between ;
+
+
+}
+
+.im1{
+width: 50vw;
+
+
+}
+
+
+.sp1{
+color: rgb(18, 206, 103);
+
+
+}
+h1{
+font-size: 3rem;
+margin-left: 2rem;
+margin-top: 2rem;
+
+}
+.pai3{
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: end;
+}
+
+label:active{
+transform: scale(0.8);
+
+
+}
+
+
+
+
+
+.e1{
+background-color: blue;
+padding-bottom: 1.5rem;
+padding-top: 1.5rem;
+border-radius: 20px;
+height: 30vh;
+}
+.e2{
+background-color: blue;
+height: 30vh;
+border-radius: 20px;
+padding: 1.5rem;
+width: 13vw;
+margin-top: 3rem;
+
+}
+@media(max-width:500px){
+.pai1{
+gap: 14px;
+margin-left: 1rem;
+transform: scale(0);
+
+}
+.aaa{
+transform: scale(1);
+transition: 1s ease-in-out;
+
+}
+label{
+    transition: 1;
+transform: scale(1);
+
+
+}
+body{
+overflow-x: hidden;
+overflow-y: auto;
+
+}
+
+
+
+
+
+
+
+
+
+}
